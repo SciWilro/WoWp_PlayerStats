@@ -1,6 +1,7 @@
-
-
-url.clan.raw <- 'https://clans.worldofwarplanes.com/wowp/1000054054/players/#players&offset=0&limit=25&order=-role&timeframe=all&battle_type='
+# Sandbox script to generate url to use based on selected parameters
+# This will likely become a single function
+# Example of url:
+# url.clan.raw <- 'https://clans.worldofwarplanes.com/wowp/1000054054/players/#players&offset=0&limit=25&order=-role&timeframe=all&battle_type='
 
 ## Params: order --------------------------------------------------------------
 params.order.isRev = FALSE
